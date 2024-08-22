@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+25&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* .page {
+  font-weight: 800;
+  /* line-height: 10px; */
+  /* letter-spacing: 0.2558470666408539px; */
+  /* text-align: left; */
+/* }  */
+
+.conteudo {
+  height: 100vh;
+
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+
+  /* align-items: center; */
+
+  /* Ajusta todo o conteúdo para o lado*/
+  padding-left: 3em;
+
+  /* text-align: center; */
+  position: relative;
+  z-index: -1;
+
+  font-family: 'Mulish', Arial;
+  font-weight: 700;
+
+  p {
+    width: 650px;
+    font-weight: bold;
+    margin: 20px 0;
+  }
+}

@@ -1,0 +1,53 @@
+footer{
+    height: 20vh;
+    background-color: #27742B;
+
+    padding-top: 20px;
+    font-family: 'Mulish', Arial;
+
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+
+    border-top: 1px solid rgba(255, 255, 255, 0.24);
+
+    column-gap: 4em;
+    font-size: 12px;
+
+    font-weight: 700;
+
+    div{
+        flex: 1 1 1px;
+    }
+}
+
+footer div{
+    display: flex;
+    flex-flow: row nowrap;
+
+    justify-content: center;
+    align-items: center;
+}
+
+footer .containerRedes div{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+}
+
+footer img{
+    width: 40px;
+    margin-bottom: 10px;
+}
+
+footer .logoPhyto{
+    width: 100px;
+}
+
+@media (max-width: 800px){
+    .containerRedes{
+        display: none;
+    }
+}
